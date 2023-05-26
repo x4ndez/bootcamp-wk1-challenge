@@ -1,7 +1,11 @@
+/*--->>> Universal Selector <<<---*/
+
 * {
+    
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 /*--->>> Element Selectors <<<---*/
@@ -9,66 +13,86 @@
 /* Globals */
 
 body {
+    
     background-color: #d9dcd6;
+    
 }
 
 a {
+    
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 p {
+    
     font-size: 16px;
+    
 }
 
 /* Navigation */
 
 nav {
+    
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
 nav div {
+    
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
 }
 
 nav div ul {
+    
     list-style-type: none;
+    
 }
 
 nav div ul li {
+    
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 nav h1 {
+    
     display: inline-block;
     font-size: 48px;
+    
 }
 
 /* Header Image */
 
 header {
+    
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 
 /* Main Section */
 
 main {
+    
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 main div {
@@ -92,6 +116,7 @@ main h2 {
 /* Aside */
 
 aside {
+    
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -100,6 +125,7 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 aside div {
@@ -127,14 +153,18 @@ aside h3 {
 /* Footer */
 
 footer {
+    
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
 footer h4 {
+    
     font-size: 20px;
+    
 }
 
 /*--->>> ID Selectors <<<---*/
@@ -144,17 +174,23 @@ footer h4 {
 /*--->>> Class Selectors <<<---*/
 
 .seo {
+    
     color: #d9dcd6;
+    
 }
 
 .sect-img-left {
+    
     float: left;
     margin-right: 25px;
     max-height: 200px;
+    
 }
 
 .sect-img-right {
+    
     float: right;
     margin-left: 25px;
     max-height: 200px;
+    
 }
